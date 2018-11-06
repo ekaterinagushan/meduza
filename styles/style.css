@@ -14,3 +14,37 @@ header,
 h3 {
   font-family: Georgia, serif;
 }
+
+body > header {
+  display: flex;
+  justify-content: space-between;
+  color: #f2f2f2;
+  background-color: rgb(38, 38, 38);
+  font-size: 13px;
+  letter-spacing: 1px;
+  align-items: center;
+  height: 45px;
+
+}
+
+.logo {
+  height: 21px;
+  margin-left: 15px;
+  margin-top: -6px;
+}
+
+body > header ul {
+  display: flex;
+  padding-top: 5px;
+}
+
+body > header li {
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+header ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
