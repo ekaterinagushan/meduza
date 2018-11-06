@@ -66,3 +66,19 @@ header ul {
   right: 0;
 
 }
+
+main {
+  height: 100vh;
+  background-color: rgba(242, 242, 242, 242);
+  padding-top: 15px;
+}
+
+section{
+  margin: 0 auto;
+  background-color: #fff;
+  width: 90vw;
+  border: 1px solid #ccc;
+  border-top: 4px solid #b88b58;
+
+
+}
