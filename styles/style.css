@@ -3,6 +3,7 @@
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 header,
@@ -47,4 +48,21 @@ header ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.panel{
+  position: relative;
+
+  font-weight: bold;
+  border-color: #fff;
+  height: 45px;
+  padding: 0 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.panel button{
+  position: absolute;
+  right: 0;
+
 }
